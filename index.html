@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>学習記録の要約システム</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>生成AIによる学習記録の要約</h1>
+
+    <textarea id="inputText" placeholder="学習したことや気づきを入力してください..." rows="8"></textarea>
+    <button id="summarizeBtn">要約を生成</button>
+
+    <h2>要約結果</h2>
+    <div id="resultBox">
+      <p id="summaryText">ここに要約が表示されます。</p>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
